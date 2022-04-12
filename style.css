@@ -1,0 +1,22 @@
+#give, #no, #reload{
+    height: 30px;
+    width: 70px;
+    color: white;
+}
+
+#give{
+background-color: rgb(67, 211, 0);
+}
+
+#no{
+    background-color: crimson;
+}
+
+#reload{
+    background-color: orange;
+}
+
+#card > img {
+    height: 300px;
+    width: 220px;
+}
