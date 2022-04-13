@@ -1,19 +1,25 @@
 #give, #no, #reload{
-    height: 30px;
+    height: 40px;
     width: 70px;
     color: white;
+    padding: 10px;
+    margin-left: -10px;
+    
 }
 
 #give{
 background-color: rgb(67, 211, 0);
+margin-top: -10px;
 }
 
 #no{
     background-color: crimson;
+    margin-top: -16px;
 }
 
 #reload{
     background-color: orange;
+    margin-top: -16px;
 }
 
 #card > img {
