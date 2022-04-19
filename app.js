@@ -1,7 +1,7 @@
-var humScore = []
+
 
 function run(){
-    getCard()
+    score()
 }
 
 function getCard(){
@@ -13,6 +13,16 @@ function getCard(){
     return r
 }
 
+var humScore = []
+
 function score(){
-    
+    var num = getCard()
+    var x = document.getElementById("humTotal");
+
+    for(var i = 1; i <= num; i++){
+        humScore.push("w")
+    }
+
+    x.innerHTML = `Human total is ${humScore.length}.`
 }
+
