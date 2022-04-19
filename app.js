@@ -16,3 +16,9 @@ function getCard(){
 function score(){
     
 }
+
+
+
+function reloadCard(){
+    document. location. reload()
+}
