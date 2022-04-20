@@ -16,11 +16,20 @@ function getCard(){
 var humScore = []
 
 function score(){
-    
+    var num = getCard()
+    var x = document.getElementById("humTotal");
+
+    for(var i = 1; i <= num; i++){
+        humScore.push("w")
+    }
+
+    x.innerHTML = `Human total is ${humScore.length}.`
 }
 
-
+function noMore(){
+    var num = getCard()
+}
 
 function reloadCard(){
-    document. location. reload()
+    document.location.reload()
 }
