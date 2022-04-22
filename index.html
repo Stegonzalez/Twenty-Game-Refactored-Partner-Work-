@@ -9,14 +9,18 @@
     <div id="images">
         <div id="buttons">
             <p onclick="run()" class="option" id="give">Give me a card</p>
-            <p class="option" id="no">No more cards</p>
+            <p onclick="getCompCard()" class="option" id="no">No more cards</p>
             <p onclick="reloadCard()" class="option" id="reload">Reload</p>
+        </div>
 
-        <div id="card"></div>
+        <div class="card" id="userCard"></div>
         <div>
           <p id="humTotal"></p>
         </div>
-      </div>
+        <div class="card" id="compCard"></div>
+        <div>
+          <p id="compTotal"></p>
+        </div>
       
   
       
