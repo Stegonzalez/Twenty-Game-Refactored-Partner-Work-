@@ -46,9 +46,31 @@ function getCompCard(){
 
     document.getElementById("compTotal").innerHTML = `The Computer total is ${compScore.length}.`
 
-    return compScore.length
+    
+
+    return compScore.length;
 }
 
+function program(){
+    getCompCard()
+    var x = score()
+    var y = getCompCard()
+    var d = document.getElementById("winner");
+
+    if ((x > 20) && (y > 20)){
+        d.innerHTML = "No one wins!"
+    }else if (x > 20){
+        d.innerHTML = "Computer wins!"
+    }else if (y > 20){
+        d.innerHTML = "Human wins!"
+    }else if (x == y){
+        d.innerHTML = "It's a tie!"
+    }else if (x < y){
+        d.innerHTML = "Computer wins!"
+    }else if (x > y){
+        d.innerHTML = "Human wins!"
+    }
+}
 
 
 function reloadCard(){

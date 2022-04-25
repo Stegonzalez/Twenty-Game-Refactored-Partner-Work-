@@ -23,15 +23,15 @@ margin-top: -10px;
     margin-top: -16px;
 }
 
-.card, p{
+.card, p, h1{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .card > img {
-    height: 250px;
-    width: 180px;
+    height: 200px;
+    width: 130px;
 }
 
 #images{
