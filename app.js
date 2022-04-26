@@ -1,9 +1,5 @@
 
 
-function run(){
-    score()
-}
-
 function getCard(){
     var r = Math.floor(Math.random() * 10) + 1
     var suitArray = ["C", "D", "H", "S"]
@@ -52,8 +48,8 @@ function getCompCard(){
 }
 
 function program(){
-    getCompCard()
-    var x = score()
+    
+    var x = humScore.length
     var y = getCompCard()
     var d = document.getElementById("winner");
 
